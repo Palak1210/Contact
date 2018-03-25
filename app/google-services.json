@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "889445492124",
+    "firebase_url": "https://jump360task.firebaseio.com",
+    "project_id": "jump360task",
+    "storage_bucket": "jump360task.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:889445492124:android:59b0bf0f5aab388f",
+        "android_client_info": {
+          "package_name": "com.jump360.palakbhootra.phonebook"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "889445492124-34d8rnkegju0ae0mb7lvg58it73dgnv0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.jump360.palakbhootra.phonebook",
+            "certificate_hash": "daacdce1f575987c7cc1260539a44036f995db33"
+          }
+        },
+        {
+          "client_id": "889445492124-i6amf1ta864bo7fis9ar5dqtfk58si8k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDXYd9jL28nb93kmMUXmxRwF0O2qFRMof0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "889445492124-i6amf1ta864bo7fis9ar5dqtfk58si8k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.jump360.palakbhootra.phonebook.AddContactActivity">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <EditText
+            android:id="@+id/editTextName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="88dp"
+            android:ems="10"
+            android:hint="@string/name"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/editTextPhone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/editTextName"
+            android:layout_marginTop="49dp"
+            android:ems="10"
+            android:hint="@string/phone_number"
+            android:inputType="phone" />
+
+        <Button
+            android:id="@+id/buttonAdd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/textViewLongitude"
+            android:layout_marginEnd="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="91dp"
+            android:text="@string/save_contact" />
+
+        <Button
+            android:id="@+id/btnAddLocation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/buttonAdd"
+            android:layout_alignBottom="@+id/buttonAdd"
+            android:layout_marginEnd="25dp"
+            android:layout_marginRight="25dp"
+            android:layout_toLeftOf="@+id/buttonAdd"
+            android:layout_toStartOf="@+id/buttonAdd"
+            android:text="Add Location" />
+
+        <TextView
+            android:id="@+id/textViewLatitude"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/editTextPhone"
+            android:layout_marginTop="89dp"
+            android:layout_toLeftOf="@+id/btnAddLocation"
+            android:layout_toStartOf="@+id/btnAddLocation"
+            android:text="-" />
+
+        <TextView
+            android:id="@+id/textViewLongitude"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/textViewLatitude"
+            android:layout_alignBottom="@+id/textViewLatitude"
+            android:layout_marginLeft="31dp"
+            android:layout_marginStart="31dp"
+            android:layout_toEndOf="@+id/btnAddLocation"
+            android:layout_toRightOf="@+id/btnAddLocation"
+            android:text="-" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textViewLatitude"
+            android:layout_alignStart="@+id/textViewLatitude"
+            android:layout_centerVertical="true"
+            android:text="LATITUDE" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/textView"
+            android:layout_alignBottom="@+id/textView"
+            android:layout_toEndOf="@+id/btnAddLocation"
+            android:layout_toRightOf="@+id/btnAddLocation"
+            android:text="LONGITUDE" />
+
+    </RelativeLayout>
+</android.support.design.widget.CoordinatorLayout>
